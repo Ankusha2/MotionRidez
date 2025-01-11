@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background: url('img/car2.jpg') no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 420px;
+    height: 440px;
+    color: aliceblue;
+    border-radius: 20px;
+    background:rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255,255,.2);
+    padding: 20px;
+    
+}
+.wrapper:hover{
+    border: 2px solid goldenrod;
+
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+   margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.lg-btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+    cursor: pointer;
+}
+.lg-btn:hover{
+    background-color: #fe5b3d;
+    color: #fff;
+
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+   justify-content: space-between;
+    
+}
+
+
+.register-link{
+    text-align: center;
+}
